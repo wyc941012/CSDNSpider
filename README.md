@@ -1,2 +1,2 @@
 # CSDNSpider
-通过爬取CSDN热门帖子的数据构建索引
+通过爬取CSDN热门帖子的数据构建索引。爬虫使用Webmagic，爬取的数据存储在HBase中，构建索引使用Lucene，通过MapReduce进行处理。
